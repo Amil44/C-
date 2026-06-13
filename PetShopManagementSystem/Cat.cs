@@ -73,7 +73,6 @@ namespace PetShopManagementSystem
         {
                                           
         }
-
         public string getNickName() => Nickname;
     }
 }
