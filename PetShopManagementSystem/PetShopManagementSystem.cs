@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 
 namespace PetShopManagementSystem
-{
+{ 
     internal class PetShopManagementSystem
     {
         static short ShowMenu(string[] items, string header = "")
@@ -16,7 +16,7 @@ namespace PetShopManagementSystem
 
                 for (short i = 0; i < items.Length; i++)
                 {
-                    if (i == selected)
+                    if (i == selected) 
                     {
                         Console.BackgroundColor = ConsoleColor.DarkGray;
                         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -98,6 +98,7 @@ namespace PetShopManagementSystem
                 else if (mainSelected == 1)
                 {   
                         short indInsideMypets = ShowMenu(insideMypets, "=== My Pets ===");
+
                         if(indInsideMypets == 0)
                         {
                             if (indMyPtes == 0)
@@ -106,6 +107,7 @@ namespace PetShopManagementSystem
                                 Console.Write("=== My Pets ===\nEmpty.");
                                 Console.ReadKey(true);
                             }
+
                             else
                             {
                                 Console.Clear();
