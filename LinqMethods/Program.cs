@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using TaskLinq.DEbtorss;
 List<Debtor> debtors = Debtor.debtors;
 
@@ -123,3 +124,6 @@ foreach (var debtor in sol11)
 //    Console.WriteLine((debtor.FullName, debtor.Debt));
 //}
 
+=======
+﻿// Linq Tasks
+>>>>>>> 61b2dffca01bb2606c862988fc1455da76614773
